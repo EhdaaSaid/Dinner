@@ -1,0 +1,803 @@
+*{
+    font-family: 'Advent Pro', sans-serif;
+    line-height: 3rem;
+}
+
+/*navPar*/
+.nPar{
+   position: relative;
+   display: block;
+   z-index: 3;
+}
+
+.navbar{
+    
+    position: absolute;
+    top: 0;
+    
+}
+.nPar .bg-light{
+    font-size:1.2rem;
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    height: 120px;
+    background-color: white;
+    z-index: 4;
+    position: fixed;
+    width: 100%;
+}
+
+.nPar .navbar-brand{
+    padding-left: 5rem;
+    padding-right: 5rem;
+
+}
+.nPar .navbar-nav{
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+.nPar .navbar-nav .nav-link{
+    color: #666666;
+    font-size: 1rem;
+    
+    padding: 0.1rem 1.2rem;
+}
+ .nPar #here{
+    color:#ffffff;
+    background-color:#d65106 ;
+    border-radius: 0.3rem;
+    
+}
+.nPar .nav-link:hover{
+    color:#ffffff;
+    background-color:#d65106 ;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+
+}
+.nPar .dropdown-item:hover{
+    color:#ffffff;
+    background-color:#d65106 ;
+    border-radius: 0.3rem;
+}
+/*HERE*/
+.nPar .one{
+    background-image: url("../pic/slider-01.jpg");
+    background-size: cover;
+
+}
+.nPar .one span{
+    z-index: 4;
+}
+.nPar .two{
+    background-image: url("../pic/slider-02.jpg");
+    background-size: cover;
+}
+.nPar .three{
+    background-image: url("../pic/slider-03.jpg");
+    background-size: cover;
+    z-index: 2;
+}
+
+
+
+/*ENDHERE*/
+
+
+.nPar .carousel-inner .overLay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+.nPar .carousel-control-prev , .nPar .carousel-control-next{
+    z-index: 3;
+    font-size:2.2rem;
+    opacity: 1;
+    
+}
+
+.nPar .fa-angle-left , .nPar .fa-angle-right{
+    background-color: #d65106;
+    border-radius: 0.3rem;
+    width: 2rem;
+    height: 2rem;
+   
+}
+ .nPar .fa-angle-right{
+   
+   
+    position: absolute;
+    right: 0;
+    transition: 0.3s ease-in-out;
+    
+    
+}
+.nPar .fa-angle-right:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.nPar .fa-angle-left{
+    position: absolute;
+    left: 0;
+    transition: 0.3s ease-in-out;
+}
+.nPar .fa-angle-left:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.nPar .carousel-item .headTxt{
+    position: absolute;
+    top:12rem;
+    left: 7rem;
+    color: #ffffff;
+    font-size: 20rem;
+    
+    z-index: 20;
+}
+.nPar .carousel-item .innerTxt{
+    position: absolute;
+    top:20rem;
+    left: 7rem;
+    color: #ffffff;
+    
+    
+    
+    z-index: 20;
+}
+.nPar .carousel-indicators li{
+    width: 10px;
+    height: 50px;
+    border: 2px solid #ffffff;
+    color: rgba(255, 255, 255, 0.1);
+    
+    border-radius: 0.5rem;
+}
+.nPar .carousel-indicators {
+    z-index: 3;
+}
+.nPar .carousel-indicators  .active{
+    background-color:#d65106 ;
+    border-color: #d65106;
+
+}
+ .Reserv{
+    position: absolute;
+    top:25rem;
+    left: 7rem;
+    color: #ffffff;
+    font-size: 1.2rem;
+    background-color:#d65106 ;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 0.5rem;
+   
+    transition: 0.3s ease-in-out;
+
+}
+ .Reserv:hover{
+    text-decoration: none;
+    background-color:#1f1f1f ;
+    color:#ffffff ;
+    transition: 0.3s ease-in-out;
+    z-index: 5;
+}
+
+
+
+/*endNavPar*/
+/*welcomeCard*/
+
+.welcomeCard .card{
+    position: relative;
+    padding: 5rem;
+    
+    border: none;
+    background-image: url('../pic/about-bg.jpg') ;
+   background-size: cover;
+    font-size: 1.2rem;
+}
+.welcomeCard .card span{
+    color:#d65106 ;
+}
+.welcomeCard .word{
+    text-align: justify;
+    line-height: 2rem;
+    padding-right: 3rem;
+    display: block;
+}
+.welcomeCard img{
+    height: 30rem;
+    box-shadow:  20px  20px 20px #d65106 ;
+    margin-top: 5rem;
+}
+.welcomeCard .card .card-body{
+    position: relative;
+}
+.welcomeCard .Reserv{
+    position: absolute;
+    top: auto;
+
+}
+.welcomeCard .details{
+    color:#666666;
+    
+    position: relative;
+    top: 5rem;
+}
+/*endWelcomeCard*/
+/*center*/
+.center{
+    height: 20rem;
+    background-image: url('../pic/qt-bg.jpg');
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff ;
+}
+.center .cont{
+    width: 50rem;
+    line-height: 2rem;
+    margin: auto;
+}
+.center .one{
+    text-align: center;
+   
+    line-height: 3rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.center .two{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    
+    text-align: center;
+  
+    
+    font-size: 3rem;
+    margin: auto;
+}
+/*endCenter*/
+
+/*center2*/
+.center2{
+    padding: 5rem;
+    text-align: center;
+    position: relative;
+    display: block;
+    
+}
+/*endCenter2*/
+/*aside*/
+.clear{
+    display: block;
+}
+.sid{
+    position: relative;
+   
+   
+    
+}
+.sid .food{
+    max-width: 30%;
+}
+.sid aside {
+    
+    padding: 0 5rem;
+   
+    
+    
+}
+.sid aside a{
+    font-size: 1.3rem;
+    line-height: 4rem;
+    color:#1f1f1f ;
+}
+.sid aside :first-child{
+    color:#ffffff;
+    background-color:#d65106 ;
+    border-radius: 0.3rem;
+    padding: 1rem 7rem 1rem 2rem;
+    text-align: left;
+
+}
+.sid aside :first-child:hover{
+    text-decoration: none;
+}
+.sid aside .asidCont{
+    padding: 1rem 5rem 1rem 2rem;
+    text-align: left;
+}
+.sid aside .asidCont:hover{
+    text-decoration: none;
+    color:#ffffff;
+    background-color:#d65106 ;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+.sid .aside .w-100{
+    width: 50% !important;
+
+}
+.sid .secondside{
+   
+   padding-right: 5rem;
+    
+
+}
+
+.secondside .card{
+    border: none;
+    margin: 0 0 3rem 0;
+    
+   
+}
+.sid .secondside .card-body{
+    position: absolute;
+    bottom: 0;
+    
+    opacity: 0;
+    height: 10rem;
+    
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0;
+    background: rgba(207, 166, 113, 0.9);
+    z-index: 2;
+    padding: 0.5rem;
+    font-size: smaller;
+    color: #ffffff;
+    
+    
+  
+    
+    
+}
+
+.sid .secondside .card-body:hover{
+    position: absolute;
+    bottom: 22%;
+    opacity: 1;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+}
+.sid .secondside .card-body p{
+    font-size: 15px;
+    line-height: 1.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed #1f1f1f;
+
+}
+/*.secondside .card .card-body{
+    position: absolute;
+    bottom: -100%;
+    background-color: rgba(207, 166, 113, 0.9);
+    height: 100%;
+    
+    
+}
+.secondside .card .card-body:hover{
+    bottom: 0%;
+    transition: 0.3 ease;
+}
+*/
+
+/*endAside*/
+
+
+
+/*galleryCont*/
+.gallerycont{
+    margin:0px 5rem;
+    padding: 0px 5rem;
+}
+.gallerycont .card{
+    border: none;
+}
+.gallerycont .card img{
+    border: 3px solid #d65106;
+}
+.gallerycont .card img:hover{
+    border: none;
+    box-shadow: 10px  10px  10px #1f1f1f  ;
+    transition: 0.3s ease-in-out ;
+}
+
+.popUp{
+    
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+.popUp .show{
+    
+    z-index:4;
+    display: none;
+    cursor: pointer;
+    
+
+}
+.popUp .over{
+    width: 100%;
+    height: 130%;
+    background:rgba(0,0,0,0.5) ;
+    position: absolute;
+    top:-30%;
+    left: 0;
+    z-index: 4;
+}
+
+.popUp .show .imgShow{
+    width: 70%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+}
+.popUp .show .imgShow img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.popUp .show span{
+    position: absolute;
+    top: -20%;
+    right: 5%;
+    z-index: 4;
+}
+.popUp .show span:hover{
+    cursor: pointer;
+}
+
+
+
+/*endGalleryCont*/
+
+/*secondCarousel*/
+
+.carouselTwo{
+    
+    
+    margin: 0 10rem 5rem 10rem;
+    
+
+}
+.carouselTwo .p-2{
+    margin: auto;
+    
+}
+.carouselTwo .p-2 p{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    line-height: 2rem;
+}
+.carouselTwo .carousel-control-prev-icon , .carouselTwo .carousel-control-next-icon{
+  
+    background-color: #d65106;
+    border-radius: 0.3rem;
+    width: 5rem;
+    height: 5rem;
+    opacity: 1;
+   
+   
+}
+.carouselTwo .carousel-control-prev-icon:hover , .carouselTwo .carousel-control-next-icon:hover{
+    background-color: rgba(0,0,0,0.9);
+    transition: 0.3s ease-in-out;
+}
+.carouselTwo .carousel-control-prev , .carouselTwo .carousel-control-next{
+    opacity: 1;
+}
+
+.carouselTwo .carousel-item  .d-block{
+    margin: auto;
+    
+    
+    
+}
+.carouselTwo .carousel-item .carousel-caption{
+    position: relative;
+    left: 0;
+    width: 70%;
+    margin: auto;
+    color: #1f1f1f;
+}
+.carouselTwo .carousel-item .carousel-caption h2{
+    color:#d65106 ;
+    margin-top: 2rem;
+    
+}
+.carouselTwo .carousel-item .carousel-caption h5{
+    margin-bottom: 4rem;
+}
+.carouselTwo .carimg{
+    
+    margin: auto;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+}
+
+/*endSecondCarousel*/
+
+/*Bar*/
+.endBar{
+    
+    background-color:#d65106 ;
+    border-radius: 5rem;
+    
+  
+}
+.endBar .d-flex{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.endBar .p-2{
+   
+    color:#ffffff ;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Comic Neue', cursive;
+    
+    font-size: 1.3rem;
+    margin: auto;
+}
+.endBar .p-2 p{
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Comic Neue', cursive;
+    line-height: 0.7rem;
+
+}
+.endBar .fas , .endBar .far {
+    font-family: "Font Awesome 5 Free";
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #d65106;
+    background-color:#ffffff ;
+}
+
+/*endBar*/
+
+/*footer*/
+footer{
+    background-image: url("../pic/footer-bg.jpg");
+    background-size: cover;
+    
+    padding: 0.5rem 5rem 2rem 5rem;
+    border-bottom:  2px solid rgba(207, 166, 113, 1);
+    position: relative;
+   
+   
+
+}
+
+footer .card-deck .card {
+    margin-top: 1.5rem;
+    margin-bottom: 5px;
+    z-index: 3;
+
+}
+
+footer .card {
+ background: none;
+ border: none;
+ color: #ffffff;
+ z-index: 3;
+}
+
+footer .card h4 , h5{
+    border-bottom: 1px solid rgba(207, 166, 113, 1) ;
+    padding-bottom: 1.2rem;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+footer .cnt{
+    font-size: 16px;
+}
+ 
+
+
+footer p{
+    font-size: 0.9rem;
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Economica', sans-serif;
+    line-height: 1.5rem;
+   
+   
+}
+footer .p-2{
+    max-width: 20%;
+    margin: auto;
+    
+   
+}
+footer input {
+    background-color: rgba(0,0,0,0.9);
+    color:#ffffff  ;
+    
+    font-size: 1rem;
+    width: 100%;
+}
+footer .btn{
+    display: block;
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: none;
+    border: none;
+    
+    
+    background-color: #d65106;
+
+}
+footer .btn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    transition: 0.5s ease-in-out;
+}
+
+
+footer .fab{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    margin-top: 0.7rem;
+    margin-right: 0.3rem;
+    border-radius: 0.5rem;
+    color: #d65106;
+    background-color:#ffffff ;
+
+}
+footer .fab:hover{
+    cursor: pointer;
+}
+footer .contact{
+    text-decoration: none;
+    color: #ffffff ;
+    
+}
+footer .contact:hover{
+    text-decoration: none;
+    color: #d65106;
+    font-size: smaller;
+ 
+}
+footer .overLay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+/*endFooter*/
+
+
+.end{
+    
+    background-color: rgba(0, 0, 0, 1);
+    color: #ffffff;
+    text-align: center;
+    margin: auto;
+    padding: 2rem;
+    
+    
+    font-family: 'Advent Pro', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Economica', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Abel', sans-serif;
+    word-spacing: 0.3rem;
+    
+}
+.end  .contact{
+    text-decoration: none;
+    color: #ffffff ;
+    
+}
+.end .contact:hover{
+    text-decoration: none;
+    color: #d65106;
+    
+ 
+}
+
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    font-size: 3rem;
+    padding: 3px 10px;
+    background: none;
+    color: #ffffff;
+    background-color:#d65106 ;
+    text-decoration: none;
+    border-radius: 0.5rem;
+  }
+.pointer .fas{
+    color: #ffffff;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color:#d65106 ;
+    transition: 0.3s  ease-in-out;
+    
+
+}
+/*menuPage*/
+/*topImg*/
+.topImg1{
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background-image: url("../pic/all-bg.jpg");
+    background-size: cover;
+}
+.topImg1 .overLay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+
+}
+.topImg1 p{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    line-height: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin: auto;
+    color: #ffffff;
+    z-index: 7;
+
+}
+/*endTopImg*/
+/*centermenu*/
+.center .two2{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Dancing Script', cursive;
+    
+    text-align: center;
+  
+    
+    font-size: 3rem;
+    margin: auto;
+}
+.center .one1{
+    text-align: center;
+   
+    line-height: 3rem;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    margin: auto;
+}
+/*endcentermenu*/
+
+
